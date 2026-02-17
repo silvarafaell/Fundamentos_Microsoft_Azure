@@ -25,3 +25,10 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
      - Serviços de IA + Machine Learning
      - Serviços de DevOps
      - Serviços de Armazenamento
+
+     ### O que é Computação em Nuvem
+      - Este site que você está acessando agora neste curso, está hospedado em um servidor
+      - Eu poderia estar utilizando um servidor fisico meu, sendo o responsavel pelo o gerenciamento da infraestrutura e espaço ou
+      - Poderia estar hospedando a aplicação em um servidor na nuvem, utilizando algum serviço disponível, até mesmo uma máquina virtual hospedada.
+      - Mas vamos com calma, o que é computação em nuvem mesmo ?
+      # O que é Computação em Nuvem 
