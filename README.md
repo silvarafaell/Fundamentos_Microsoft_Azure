@@ -44,3 +44,14 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
       - Entre os seus principais benefícios estão maior agilidade, inovação, segurança e economia de custos
       - Conhecimentos adquiridos sobre uma plataforma de nuvem são facilmente transferíveis para outras, afinal, muitos conceitos e objetivos de serviços são familiares
       - Todas elas (as principais, pelo menos) tem programas de certificação, validando os conhecimentos adquiridos.
+
+ ### Modelos e Benefícios de Nuvem
+  - Modelos de Nuvem
+    - Existem alguns modelos de implantação de computação em nuvem que a empresa pode optar, dependendo de suas restrições e necessidades de negócio
+    - São eles:
+      - Hibrida
+      - Publica
+      - Privada
+   - Nuvem Híbrida
+     
+      
