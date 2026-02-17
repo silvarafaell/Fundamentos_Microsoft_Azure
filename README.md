@@ -30,5 +30,17 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
       - Este site que você está acessando agora neste curso, está hospedado em um servidor
       - Eu poderia estar utilizando um servidor fisico meu, sendo o responsavel pelo o gerenciamento da infraestrutura e espaço ou
       - Poderia estar hospedando a aplicação em um servidor na nuvem, utilizando algum serviço disponível, até mesmo uma máquina virtual hospedada.
-      - Mas vamos com calma, o que é computação em nuvem mesmo ?
-      ## O que é Computação em Nuvem 
+      - Mas vamos com calma, o que é computação em nuvem mesmo ??
+      - Disponibilização de recursos de TI através da internet, sob demanda e com pagamento por uso
+      - Quando falamos de recursos, não quer dizer apenas máquinas virtuais. Alguns exemplos:
+        - Bancos de dados
+        - APIs de AI + Machine Learning
+        - Integração de Sistemas
+        - Containers e Orquestradores
+        - Serveless
+        - DevOps, Armazendamento, e muito mais..
+      - Principais plataformas de computação em nuvem atualmente são:
+      - Microsoft Azure, Amazon Web Services (AWS), e Google Cloud Platform (GCP)
+      - Entre os seus principais benefícios estão maior agilidade, inovação, segurança e economia de custos
+      - Conhecimentos adquiridos sobre uma plataforma de nuvem são facilmente transferíveis para outras, afinal, muitos conceitos e objetivos de serviços são familiares
+      - Todas elas (as principais, pelo menos) tem programas de certificação, validando os conhecimentos adquiridos.
