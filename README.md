@@ -52,6 +52,34 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
       - Hibrida
       - Publica
       - Privada
-   - Nuvem Híbrida
+  - Nuvem Híbrida
+    - Modelo em que a implantação da nuvem utilizada é feito através da combinação da infraestrutura local (ou nuvem privada) com nuvem pública
+    - Ou seja, as aplicações se comunicam entre si entre dois ambientes, bem como os dados se movem entre eles
+    - Geralmente utilizada em cenários que contém restrições ao negócio, como regulação e soberania de dados
+    - Como principais benefícios de se utilizar esse modelo estão
+      - Flexibilidade: por ter acesso a nuvem publica, é possivel aproveitar os recursos dela sob demanda, bem como realizar migração a nuvem publica de maneira gradual
+      - Controle: possibilidade de deixar os dados confidencias em ingraestrutura local /nuvem privada, atendendo a regulações
+      - Custo-benefício: novamente, benefício possível por conta da nuvem pública.
+  - Nuvem Pública
+    - Nuvem pública é o modelo mais comum de computação em nuvem, sendo o padrão que entendemos quando se fala simplesmente "Computação em Nuvem"
+    - Nele, a implantação da nuvem é responsabilidade de um provedor terceiro, como o Microsoft Azure, Amazon Web Services e Google Cloud Platform
+    - Os mesmos dispositivos de hardware e rede são compartilhados com outras organizações
+    - As contas e instancias de serviços são gerenciados através de um navegador web
+    - Também é comum utilizar ferramenta CLI para dar suporte a isso, principalmente em criação de fluxos de automação
+    - Como principais benefícios de se utilizar esse modelo estão
+      - Flexibilidade: é possivel aproveitar os recursos dela sob demanda
+      - Redução na carga de manutenção: responsabilidade do provedor no gerenciamento e atualização de infraestrutura que dá suporte a computação em nuvem, incluindo seus serviços
+      - Custo benefício: pagamento somente pelo o uso dos recursos e serviços, sem a necessidade de comprar hardware ou software
+      - Alta disponibilidade: garantia através de SLAs (Contrato de Nivel de Serviço), e com possibilidade de ser melhorada através de recursos da propria nuvem, como zonas de disponibilidade
+      - Alta escalabilidade: diversos serviços e recursos que possibilitam escala de acordo com a carga atual em que os sistemas estão submetidos
+      
+  - Nuvem Privada
+    - Modelo onde os recursos de computação em nuvem são usados de maneira exclusiva por uma empresa ou sua organização
+    - A infraestrutura que disponibiliza os recursos pode ser de um provedor terceiro ou da própria organização em um datacenter local
+    - Seus recursos são mantidos em rede privada. Além disso, a infraestrutura é dedicada a organização, não ocorrendo compartilhando externo como em uma nuvem publica.
+    - Como principais benefícios de se utilizar esse modelo estão
+      - Flexibilidade: possibilidade de personalizar a nuvem privada de acordo com as necessidades do negócio
+      - Controle: dados não são compartilhados com o "exterior", resultando em maior privacidade e atendendo a regulações
+      - Escalabilidade: escalabilidade maior quando comparado com infraestrutura local
      
       
