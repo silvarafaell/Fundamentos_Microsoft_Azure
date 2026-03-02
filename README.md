@@ -81,5 +81,22 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
       - Flexibilidade: possibilidade de personalizar a nuvem privada de acordo com as necessidades do negócio
       - Controle: dados não são compartilhados com o "exterior", resultando em maior privacidade e atendendo a regulações
       - Escalabilidade: escalabilidade maior quando comparado com infraestrutura local
+
+### Modelos de Serviço em Nuvem
+ - Falamos anteriormente sobre modelos de nuvem, dessa vez falaremos sobre Modelos de Serviços de Nuvem
+ - As plataformas de nuvem oferecem serviços que podem ser agrupados em alguns modelos, que se diferenciam principalmente no nivel de responsabilidade de gerenciamento dos recursos e sua infraestrutura
+ - Os principais são:
+   - Infrastructure as a Service(IaaS)
+   - Platform as a Service(PaaS)
+   - Software as a Service(SaaS)
+ - Mais recentemente, têm surgido outros, como:
+   - Function as a Service (FaaS)
+   - Container as Service (CaaS)
+ - Shared Responsibility
+   - Shared Responsability, ou Responsabilidade Compartilhada, é um conceito essencial de se entender quando falamos de Computação em Nuvem
+   - Mais importante ainda para quem é responsavel por avaliar serviços de nuvem
+   - Depende do modelo de serviço escolhido
+   - Quando falamos de On Premise falamos de data center local, onde você é responsavel por todos aspectos de infraestrutura, como gerenciamento de rede local, sistema operacional e suas atualizações, servidores, e tantos outros aspectos
+   - No momento que se decide migrar para a nuvem, as responsabilidades passam a ser compartilhadas , com maior controle sendo passsado a nuvem dependendo do modelo de serviço
      
       
