@@ -106,5 +106,19 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
      - Máquinas virtuais / servidores
      - Armazenamento
      - Rede
+ - Platform as a Service (PaaS)
+   - Modelo onde podemos desenvolver, gerenciar e entregar aplicações, com os provedores gerenciando aspectos como sistemas operacionais, segurança, backups e software
+   - Permite que organizações foquem mais no desenvolvimento e entrega de valor através deste, e menos na infraestrutura subjacente
+   - Os principais exemplos de serviços de nuvem são:
+     - Computação (Entrega de aplicações)
+       - Inclui contêineres e orquestração deles
+     - Banco de dados
+     - Integração
+       - Mensageria
+       - Hub de eventos
+       - Gerenciamento de APIs
+      - Inteligência Artificial + Machine Learning
+      - Monitoramento
+      - Identidade, Analytics, IoT, e muito mais
      
       
