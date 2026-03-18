@@ -130,4 +130,14 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
       - Microsoft Dynamics
       - Azure DevOps
      
-      
+ ### O que é o Microsoft Azure
+  - Antes de tudo, já entendemos o que é nuvem publica, correto ?
+  - O Microsoft Azure é um provedor de nuvem da Microsoft, consistindo de mais de 200 produtos e serviços de nuvem
+  - Lançado em 1 de fevereiro de 2010 como Windows Azure, e renomeado para Microsoft Azure em 2014
+  - Se tornou uma prioridade para a Microsoft sob a liderança do CEO Satya Nadella, se estabelecendo como a segunda mais         popular do mundo.
+  - Crescimento acelerado e excelente experiência do usuário em seu portal quando comparado com outras plataformas
+  - Alta quantidade de produtos e serviços, inclusive se tornando líder do Magic Quadrant do Gartner em Serviços de AI para      Desenvolvedor na Nuvem
+  - Contém diversos serviços com camadas de serviço gratuitas, como computação, serveless, AI, gerenciamento de APIs, entre      outros
+  - Criação de conta gratuita, recebendo $ 200 em crédito Azure para utilizar no seu primeiro mês (2022)
+  - Adiantando levemente o tema, mas o pagamento é conforme o uso na nuvem, então cuidado para não criar a conta     e sair      criando recursos
+  - Se passar dos limites de camada gratuita, haverão cobranças. Falarei mais a frente sobre o Suporte nesses casos!
