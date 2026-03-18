@@ -120,5 +120,14 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
       - Inteligência Artificial + Machine Learning
       - Monitoramento
       - Identidade, Analytics, IoT, e muito mais
+  - Software as a Service (SaaS)
+    - Modelo que consiste na oferta de um software baseado em nuvem
+    - Os usuários não precisam instalar nada localmente, podendo acessar pela Web ou algum tipo de API, além de não precisar       realizar qualquer tipo de gerenciamento, instalação ou atualização de software
+    - O acesso é fornecido através de um modelo de assinatura, no geral sendo oferecido diversos níveis dependendo da              necessidade
+    - Os principais exemplos de serviços de nuvem são:
+      - Outlook
+      - Microsoft 365
+      - Microsoft Dynamics
+      - Azure DevOps
      
       
