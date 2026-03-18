@@ -155,3 +155,7 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
      - Gratuito
      - Pay-as-you-go
      - Ofertas de mebros
+
+### Portal do Azure
+ - Interface Web que permite gerenciar assinaturas do Azure e os recursos
+ - Oferece acesso ao Marketplace, onde os serviços podem ser buscados e ter recursos deles criados
