@@ -96,7 +96,15 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
    - Shared Responsability, ou Responsabilidade Compartilhada, é um conceito essencial de se entender quando falamos de Computação em Nuvem
    - Mais importante ainda para quem é responsavel por avaliar serviços de nuvem
    - Depende do modelo de serviço escolhido
-   - Quando falamos de On Premise falamos de data center local, onde você é responsavel por todos aspectos de infraestrutura, como gerenciamento de rede local, sistema operacional e suas atualizações, servidores, e tantos outros aspectos
-   - No momento que se decide migrar para a nuvem, as responsabilidades passam a ser compartilhadas , com maior controle sendo passsado a nuvem dependendo do modelo de serviço
+   - Quando falamos de On Premise falamos de data center local, onde você é responsavel por todos aspectos de infraestrutura, como gerenciamento de rede local, sistema           operacional e suas atualizações, servidores, e tantos outros aspectos
+   - No momento que se decide migrar para a nuvem, as responsabilidades passam a ser compartilhadas , com maior controle sendo passsado a nuvem dependendo do modelo de           serviço
+ - Infrastructure as a Service (IaaS)
+   - Modelo que transfere menos responsabilidade para a nuvem, mas que permite maior controle dos recursos
+   - A principal característica é que ao invés de comprar o hardware, recursos como servidores, armazenamento e redes são utilizados sob demanda.
+   - Resulta em economia de custos de aquisição a manutenção do próprio hardware (infraestrutura física), além de maior segurança
+   - Os principais exemplos de serviços de nuvem são:
+     - Máquinas virtuais / servidores
+     - Armazenamento
+     - Rede
      
       
