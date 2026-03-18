@@ -141,3 +141,17 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
   - Criação de conta gratuita, recebendo $ 200 em crédito Azure para utilizar no seu primeiro mês (2022)
   - Adiantando levemente o tema, mas o pagamento é conforme o uso na nuvem, então cuidado para não criar a conta     e sair      criando recursos
   - Se passar dos limites de camada gratuita, haverão cobranças. Falarei mais a frente sobre o Suporte nesses casos!
+
+### Conta e Assinaturas
+ - Esses conceitos são essenciais de se entender antes de avançarmos para conteúdos relacionados a Portal do Azure e Grupos de Recursos
+ - Conta do Azure
+   - Criada para acessar serviços do Microsoft Azure, sem custo associado a sua criação
+   - Conta onde serão atribuídas as cobranças pelos recursos de serviços criados
+   - Pode conter múltiplas Assinaturas (Subscriptions), para separação de cobranças ou por gerenciamento, por exemplo
+ - Assinaturas
+   - É um agrupamento lógico de recursos criados, permitindo a organização de recursos por projeto, setor ou outro critério
+   - É possível ter mais de uma Assinatura, e até recomendável por motivos de gerenciamento de pagamentos, com relatórios         próprios
+   - Existem 3 tipos:
+     - Gratuito
+     - Pay-as-you-go
+     - Ofertas de mebros
