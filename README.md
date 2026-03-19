@@ -159,3 +159,8 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
 ### Portal do Azure
  - Interface Web que permite gerenciar assinaturas do Azure e os recursos
  - Oferece acesso ao Marketplace, onde os serviços podem ser buscados e ter recursos deles criados
+
+ ### Grupos de Recursos
+  - Agrupa recursos relacionados entre si, contendo metadata sobre eles e especificamente uma região
+  - Podem ser agrupados pelo critério que preferir, geralmente por solução publicada no Azure, e é definido ao    criar um       recurso.
+  - Assim, com o fim de um projeto ou em outra situação com necessidade de interromper ou excluir recursos, se torna mais        fácil realizar esse tipo de ação ou outra em recursos relacionados
