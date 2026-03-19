@@ -164,3 +164,32 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
   - Agrupa recursos relacionados entre si, contendo metadata sobre eles e especificamente uma região
   - Podem ser agrupados pelo critério que preferir, geralmente por solução publicada no Azure, e é definido ao    criar um       recurso.
   - Assim, com o fim de um projeto ou em outra situação com necessidade de interromper ou excluir recursos, se torna mais        fácil realizar esse tipo de ação ou outra em recursos relacionados
+
+  ### Regiões e Zonas de Disponibilidade
+ - Regiões
+   - O azure mantém data centers em diversas regiões, projetados de maneira a alcançar uma maior resiliência e                   confiabilidade dos serviços e soluções publicados
+   - Também permite que clientes tenham suporte em diversas localidades
+   - Cada Região é composta por data centers, sendo separadas para formar perímetros que oferecem melhores latências.
+   - Regiões disponiveis (2022)
+     - America
+       - Brazil South
+       - Canada Central
+       - Central US
+       - East US
+       - East US 2
+       - South Central US
+       - US Gov Virginia
+       - West US 2
+       - West US 3
+     - ETC
+  - Zonas de Disponibilidade
+    - São localidades fisicamente separadas, dentro de cada região do Azure, que são tolerantes a falhas locais como:
+      - Falha em Software e Hardware
+      - Fenômenos naturais
+        - Enchentes
+        - Terremotos
+        - Incêndios
+     - Tolerância a falhas é alcançada através de redundância e isolamento de serviços do Azure
+       - Existe um mínimo de três zonas de disponibilidade separadas dentro de cada região
+       - Caso uma zona seja afetada, as duas restantes suportam os serviços
+     - Redes de alta performance conectam zonas de disponibilidade, mantendo os dados sincronizados entre elas em caso de           que uma falha ocorra
