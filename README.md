@@ -193,3 +193,26 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
        - Existe um mínimo de três zonas de disponibilidade separadas dentro de cada região
        - Caso uma zona seja afetada, as duas restantes suportam os serviços
      - Redes de alta performance conectam zonas de disponibilidade, mantendo os dados sincronizados entre elas em caso de           que uma falha ocorra
+
+### SLAs e Suporte
+ - SLAs
+   - SLA significa Service-Level Agreement (ou Acordo de Nível de Serviço)
+     - Define expectativas de nével do serviço de um provedor, definindo métricas pelas quais o serviço será avaliado/medido
+     - Também define penalidades em caso de falha ao manter as expectativas combinadas
+     - Essencial para contratos de serviços de tecnologia
+   - Os Acordos de Nível de Serviço (SLA) da Microsoft descrevem os compromissos para tempo de atividade e conectividade. Ou seja, de certa forma, disponibilidade dos serviços
+   - Alguns exemplos
+     - Azure APP Service: disponibilidade de 99.95% mas não engloba camadas gratuita e compartilhada
+     - Azure Service Bus: disponibilidade de 99.9%
+     - Azure Kubernetes Service (AKS): disponibilidade de 99.95% em caso de uso de Zona de Disponibilidade, ou 99.9% sem uso
+ - Suporte
+   - Quaisquer problemas que tenha, como por exemplo:
+     - Cobrança por recurso já excluido
+     - Cobrança por acidente (deixou recurso sem uso mas ativo)
+     - Indisponibilidade de serviços
+     - Entre outros
+   - Planos de Suporte
+     - Desenvolvedor (Avaliação, Testes e Desenvolvimento)
+       - Resposta inicial de suporte técnico dentro de um dia útil
+     - Standard (Cargas de trabalho de produção)
+       - Resposta inicial de suporte técnico entre uma hora e um dia útil, de acordo com a urgência
