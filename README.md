@@ -216,3 +216,48 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
        - Resposta inicial de suporte técnico dentro de um dia útil
      - Standard (Cargas de trabalho de produção)
        - Resposta inicial de suporte técnico entre uma hora e um dia útil, de acordo com a urgência
+
+### Serviços de Computação
+ - Serviços relacionados a recursos de computação na nuvem, incluindo capacidade e escala, sob demanda.
+ - Serviços que abordaremos
+   - App Service
+   - Static Web Apps
+   - Virtual Kubernetes Service
+   - Azure Functions
+   - Azure Container Instances
+   - Azure Service Fabric
+ - Serviço de criação, publicação e escala de aplicações Web e APIs, com suporte a
+   - .NET /NET Core
+   - Node.js
+   - Java
+   - Python
+   - PHP
+ - Permite publicar aplicações tanto através de containers, quanto em máquinas Windowsou Linux.
+ - Static Web Apps
+   - Serviço de hospedagem de conteúdo estático distribuido globalmente e com escala dinâmica através de load balancing
+   - Suporte a diversas bibliotecas e frameworks, como
+     - Angular
+     - React
+     - Blazor
+     - Vue.js
+     - Entre outros, como Meteor, KnockoutJS, e Backbone.JS
+    - ideal para publicar sua aplicação de conteúdo estático, e então integrar com serviços serveless como Azure Functions, resultando em uma aplicação full-stack Serverless
+ - Virtual MAchines
+   - Srviço para criação de VMS (máquinas virtuais) Windows e Linux
+   - Máquinas virtuais no Azure podem ser utilizadas em diversas taredas, comp:
+     - Desenvolvimento e Teste
+     - Publicar aplicação. Emora o ideal seja publicar no App Service, em alguns cenários fará sentido publicar lá dependendo dos requisitos de execução
+     - Extensão do Datacenter da organização
+  - Azure Container Instances
+    - Serviço para execução de containers no Azure, em casos onde não preciser orquestar containers de meneira completa (onde o AKS seria mais indicado)
+    - É possivel expor grupos de containers a internet com endereço IP e nome de domínio completo, além de poder especificar uma tag de DNS personalizado quando criar a instância do container
+  - Azure Kubernetes Services
+    - Simplificando a publicação e gerenciamento de clusters Kubernetes gerenciados no Azure. A manutenção e health ckecks do cluster AKS é gerenciada pela Microsoft, bem como o master node.
+    - Aspectos como configuração de rede, integração com Azure AD, monitoramento, entre outros, são configurados para você ao publicar o cluster AKS
+  - Azure Service Fabric
+    - É uma plataforma de sistemas distribuidos, focado em microserviços, facilitando tarefas como empacotamento, publicação e gerenciamento de microserviços e seus containers
+    - Service Fabric é o orquestrador de containers da Microsoft, focado em microserviços distribuidos em cluster de máquinas
+    - Seu grande diferencial é permitir o modelo de programação "stateful", que beneficia certos tipos de cargas de trabalho
+  - Azure Functions
+    - Descrição: solução serverless que permite a escrita de menos código, e o gerenciamento de menos infraestrutura. Além disso, resulta em economia de custos
+    - Permite a execução de funções dos mais variados tipos, como HTTP e reativas, por exemplo, e integração simples com diversos serviços do Microsoft Azure, desde serviços de integração até banco de dados e armazenamento de arquivos.
