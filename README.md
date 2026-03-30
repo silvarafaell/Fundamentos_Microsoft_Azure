@@ -261,3 +261,31 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
   - Azure Functions
     - Descrição: solução serverless que permite a escrita de menos código, e o gerenciamento de menos infraestrutura. Além disso, resulta em economia de custos
     - Permite a execução de funções dos mais variados tipos, como HTTP e reativas, por exemplo, e integração simples com diversos serviços do Microsoft Azure, desde serviços de integração até banco de dados e armazenamento de arquivos.
+
+### Serviços de Integração
+ - Serviços relacionados a integração de aplicações, dados, serviços e processos pela organização
+ - Quanto a integração de aplicação e serviços, tem papel fundamental no desacoplamento de aplicaçõese serviços, contribuindo para arquiteturas distribuidas, como a de microserviços e serverless
+ - Serviços que abordaremos
+   - Azure Event Grid
+   - Azure Service Bus
+   - Logic Apps
+ - Event Grid
+   - Serviço gerenciado de broker de eventos, altamente escalável, que permite integrar aplicações utilizando eventos e arquitetura orientada a eventos
+   - Permite diversas fontes de eventos, como:
+     - Tópicos
+     - Dominios
+     - Provedores SaaS, como Autho e Microsoft Graph API (que permite eventos a partir de Microsoft Outlook, Teams, Azure AD, SharePoint, e outros)
+     - Diversos serviços do Azure, como App Service, Blob Storage, Service Bus, Azure Kubernetes Service, entre outros
+ - Service Bus
+   - Serviço gerenciado de broker de mensagens completmente gerenciado
+   - Permite a criação de filas de mensagens e tópicos Publish-Subscribe
+   - Mensagens contém dados e metadados, e pode carregar informações de diferentes formatos, como JSON, XML, Avro, Plain Text
+ - Logic Apps
+   - Plataforma para criação e execução de fluxos de trabalho com integração de apps, dados, serviços e sistemas
+   - Tem o Logic Apps Designer, ferramenta que permite montar o fluxo de trabalho de maneira visual, através de conectores
+   - Atualmente existem centenas de conectores, como
+   - Serviços do Azure, como Azure Functions e Azure Service Bus
+   - Srviços do Office 365, como outlook e Excel
+   - Banco de dados como SQL e Oracle
+   - Sistemas SAP
+   - Entre outros
