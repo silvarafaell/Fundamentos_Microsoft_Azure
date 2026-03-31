@@ -289,3 +289,27 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
    - Banco de dados como SQL e Oracle
    - Sistemas SAP
    - Entre outros
+
+### Serviços de Bancos de Dados
+ - Serviços relacionados a banco de dados gerenciados
+ - São ofertados banco de dados de diferentes como relacionais (MySQL, SQL, PostgreSQL) quanto não-relacionais (Redis, Cosmos DB)
+ - Serviços que abordaremos
+   - Azure SQL Database
+   - Azure DAtabase for PostgreSQL/ MySQL / MariaDB
+   - Azure Cosmos  DB
+   - Azure Cache For Redis
+ - Azure SQL Database
+   - Serviço completamente gerenciado de banco de dados SQL Server
+   - Patches automáticos e 99.99% de disponibilidade
+   - Além de dados relacionados, também permite estruturas não-relacionais, como grafos, JSON, dados espaciais e XML
+   - Novas funcionalidades são disponibilizadas nele antes até do que o proprio SQL SERVER
+ - Azure Database for MySQL / PostgreSQL / MariaDB
+   - Serviços gerenciados de banco de dados MySQL, PostgreSQL e Maria DB
+   - Junto ao Azure SQL Database, apresenta grande variedade que atende a maioria das aplicações corporativas que já existem e que virão a existir no mercado e que utilizem banco de dados relacionais
+ - Azure Cosmos DB
+   - Serviço de banco de dados NoSQL totalmente gerenciado, coom tempos de resposta de milissegundos de digito único e com escalabilidade automática
+   - Profundamente integrado com outros serviços de desenvolvimento do Azure, como Azure Functions, App Service e AKS
+   - Multiplas APIs de banco de dados, como SQL, MongoDB, e Cassandra.
+ - Azure Cache for Redis
+   - Serviço de armazenamento em memória de dados no Redis
+   - Como características principais do Redis, é a de melhorar performance e escalabilidade de aplicações através do armazenamento de inforamações frequentemente acessadas em memoria
