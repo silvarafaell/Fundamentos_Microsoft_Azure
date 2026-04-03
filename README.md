@@ -313,3 +313,47 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
  - Azure Cache for Redis
    - Serviço de armazenamento em memória de dados no Redis
    - Como características principais do Redis, é a de melhorar performance e escalabilidade de aplicações através do armazenamento de inforamações frequentemente acessadas em memoria
+
+### Serviços da Web
+ - Serviços relacionados a gerenciamento de aplicativos Web, dando também suporte a eles com diferentes recursos
+ - Serviços que abordaremos
+   - API Management
+   - Azure SignalR Service
+   - Azure Front Door
+   - Azure Maps
+ - API Management
+   - Plataforma de gerenciamento de APIs multicloud, composto por API Gateway, Portal do Desenvolvedor e Plano de Gerenciamento
+     - API GateWay: redireciona requisições para serviços backend, com funcionalidades de roteamento, segurança, thottling, caching e observabilidade
+     - Plano de Gerenciamento: camada que permite acesso aos recursos do API Management, acessível por ferramentas como Azure Portal, Client SDKs, e até extensão de VS Code
+     - Portal do Desenvolvedor: Interface web customizável e gerada automaticamente, com a documentação das APIs. Permite entre outras funcionalidades, a leitura de documentação, chamada de APIs pelo Console, acesso a analytics, entre outros
+     - Integração com outros serviços do Azure, como
+       - Azure Key Vault
+       - Azure Monitor
+       - Event Hubs
+       - Entre Outros;
+- Azure SignalR Service
+     - Serviço que disponibilidade recursos real-time a aplicações Web, através de HTTP
+     - Permite a atualização de conteúdo a clientes que estejam conectados, como aplicações Web ou mobile, através de suporte a mecanismos cmo
+       - Web Sockets (ideal)
+       - Server-Sent Events (SSE)
+       - Long Polling
+     - Tem suporte nativo do ASP.NET Core
+     - Cenários de uso
+       - Chats
+       - Localização em tempo real
+       - Leilões ou votações
+       - Notificações
+  - Azure Front Door
+     - Serviço de Content Delivery Network (CDN) que disponibiliza um acesso rápido e seguro a recursos estáticos ou dinamicos, entre usuários e aplicações
+     - O conteúdo é entregue através da rede Global da Microsoft, de maneira segura através de diversos recursos de segurança, como
+       - Camadas de proteção DDoS
+       - Web Application Firewall (WAF)
+       - Azure DNS
+       - Bot manager
+       - Azure Policy e Azure Advisor
+   - Azure Maps
+     - Conjunto de serviços geoespaciais e SDKs, como
+       - APIs REST para renderizar vetores e mapas
+       - Definições de rotas, permitindo personalizar com a quantidade de pontos e veículo
+       - Serviços de busca de endereços e locais
+       
