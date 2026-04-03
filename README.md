@@ -357,3 +357,23 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
        - Definições de rotas, permitindo personalizar com a quantidade de pontos e veículo
        - Serviços de busca de endereços e locais
        
+### Serviços de Containers
+ - Serviços relacionados a desenvolvimento e gerenciamento de aplicações conteinerizadas
+ - Serviços que abordaremos
+   - Azure Container Registry
+   - Azure Red Hat OpenShift
+   - Azure Kubernetes Service (AKS)
+   - Azure Container Instances
+ - Azure Container Registry
+   - Serviço de registry gerenciado, baseado no Doker REgistry 2.0
+   - Utilizado para geração de imagens Docker no Azure, permitindo alguns cenários como
+     - Atualização automática de imagens quando código de um repositorio Git receber um novo commit
+     - Criação de esteira de tarefas para gerar, testar e disponibilizar imagens, integrada com ferramentas de integração e entrega contínuos, como Azure Pipelines ou Jenkins
+ - Azure Red Hat OpenShift
+   - Serviço de publicação de clusters OpenShift gerenciados
+   - Sobre o OpenShift
+     - Plataforma que estende o Kubernetes, simplificando o processo de decidir onde construir, publicar e executar aplicações tanto tradicionais quanto cloud-native
+   - SLA de 99,95%
+ - Azure Container Instances
+   - Serviço para execução de containers no Azure, em casos onde não precise orquestrar containers de maneira completa (onde o AKS seria mais indicado)
+   - É possivel expor grupos de containers a internet com endereço IP e nome de dominio completo, além de poder especificar uma tag de DNS personalizado quando criar a instancia do container
