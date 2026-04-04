@@ -377,3 +377,33 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
  - Azure Container Instances
    - Serviço para execução de containers no Azure, em casos onde não precise orquestrar containers de maneira completa (onde o AKS seria mais indicado)
    - É possivel expor grupos de containers a internet com endereço IP e nome de dominio completo, além de poder especificar uma tag de DNS personalizado quando criar a instancia do container
+
+### Serviços de IA + Machine Learning
+ - Serviços que permitem adicionar capacidades de inteligência artificial a aplicações
+ - Serviços que abordaremos
+   - Azure Cognitive Services
+   - Azure Machine Learning
+ - Azure Cognitive Services
+   - Serviços de inteligencia artificial, permitindo a integração de aplicações com eles sem a necessidade de conhecimento em ciencia de dados ou AI
+   - Permite integração via APIs REST ou SDKs de bibliotecas
+   - Categorias de serviços
+     - Vision
+     - Speech
+     - Language
+     - Decision
+   - Categorias de serviços
+     - Vision
+       - Computer Vision: Processamento de imagens e obtenção de informação
+       - Custom Vision: construção, publicação e otimização de classificadores de imagem
+       - Face: detecção e reconhecimento facial
+     - Sppech
+       - Speech-to-Text / Text-to-Sppech: conversão entre fala e escrita, vice-versa
+       - Speech Translation: tradução de fala em tempo real
+  - Azure Machine Learning
+    - Serviço de nuvem completo para gerenciamento de todo ciclo de vida de projetos de machine learning
+      - Explorar e preparar dados
+      - Treinar e validar modelo
+      - Implentar modelo
+      - Monitorar e Gerenciar
+    - Permite criação de modelos ou utilização de modelo criado em outras ferramentas, como Pytorch, scikit-learn ou TensorFlow
+    - Permite criação de APIs REST para integração de aplicações como o Azure Machine Learning
