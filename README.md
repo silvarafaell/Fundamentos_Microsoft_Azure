@@ -407,3 +407,17 @@ Curso Fundamentos de Microsoft Azure no nextwave(LuisDEV)
       - Monitorar e Gerenciar
     - Permite criação de modelos ou utilização de modelo criado em outras ferramentas, como Pytorch, scikit-learn ou TensorFlow
     - Permite criação de APIs REST para integração de aplicações como o Azure Machine Learning
+
+### Serviços de DevOps
+ - Serviços que permitem gerenciar o ciclo de vida completo de um projeto, desde o gerenciamento das entregas e processo, até repositorio Git, esteiras de integração e entrega contínuos, geração de pacotes
+ - Serviços que abordaremos
+   - Azure DevOps
+ - Azure DevOps
+   - Serviços de desenvolvedor que abordam o ciclo completo de um projeto de software
+   - É composto pelos seguintes serviços
+     - Azure Boards
+     - Azure Repos
+     - Azure Pipelines
+     - Azure Artifacts
+     - Azure Test Plans
+   
